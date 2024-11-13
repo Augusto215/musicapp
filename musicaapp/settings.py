@@ -38,8 +38,8 @@ DATABASES = {
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-CSRF_TRUSTED_ORIGINS = []
+ALLOWED_HOSTS = ['musicapp-j3iu.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://musicapp-j3iu.onrender.com/*']
 
 
 AUTH_USER_MODEL = 'usuarios.CustomUser'
